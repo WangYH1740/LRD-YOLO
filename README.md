@@ -35,6 +35,7 @@ model = YOLO("ultralytics/cfg/models/v8/yolov8.yaml")
 
 # Use the model
 results = model.train(data="dataset/leaf.yaml", epochs=100, batch=16)  # train the model
+# Replace the path in leaf.yaml with your own paths
 ```
 
 Refer to the YOLOv8 GitHub repository for more details about epochs, batch size, and other arguments used during the training process. Check the `runs/detect/` directory for the training results.
