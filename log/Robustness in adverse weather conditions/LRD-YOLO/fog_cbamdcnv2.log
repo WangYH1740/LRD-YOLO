@@ -1,0 +1,10 @@
+/public/home/wangyuanhao/miniconda3/envs/frcnn/bin/python
+Ultralytics YOLOv8.0.188 🚀 Python-3.8.16 torch-1.10.1+cu111 CPU (Intel Xeon Gold 6230R 2.10GHz)
+3cbam_dcnv2 summary: 204 layers, 3333206 parameters, 0 gradients, 7.3 GFLOPs
+[34m[1mval: [0mScanning /public/home/wangyuanhao/rolled/ultralytics/data/labels/test.cache... 70 images, 0 backgrounds, 0 corrupt: 100%|██████████| 70/70 [00:00<?, ?it/s][34m[1mval: [0mScanning /public/home/wangyuanhao/rolled/ultralytics/data/labels/test.cache... 70 images, 0 backgrounds, 0 corrupt: 100%|██████████| 70/70 [00:00<?, ?it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/5 [00:00<?, ?it/s]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  20%|██        | 1/5 [00:20<01:22, 20.54s/it]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  40%|████      | 2/5 [00:33<00:48, 16.07s/it]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  60%|██████    | 3/5 [00:55<00:37, 18.71s/it]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  80%|████████  | 4/5 [01:10<00:17, 17.29s/it]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 5/5 [01:15<00:00, 12.76s/it]                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 5/5 [01:15<00:00, 15.03s/it]
+                   all         70        626      0.712      0.618      0.692      0.394
+                  leaf         70        170      0.729      0.465      0.601      0.323
+                rolled         70        456      0.695      0.772      0.783      0.464
+Speed: 44.9ms preprocess, 933.7ms inference, 0.0ms loss, 0.8ms postprocess per image
+Results saved to [1m/public/home/wangyuanhao/rolled/ultralytics/runs/detect/val10[0m
