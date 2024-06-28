@@ -1,0 +1,7 @@
+train: I:/desk/rolled/data3/data/data_yolo/images/train
+val: I:/desk/rolled/data3/data/data_yolo/images/val
+test: I:/desk/rolled/data3/data/data_yolo/images/test
+# number of classes
+nc: 2
+# class names
+names: ['leaf','rolled']
