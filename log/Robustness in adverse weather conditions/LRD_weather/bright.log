@@ -1,0 +1,56 @@
+/public/home/wangyuanhao/miniconda3/envs/frcnn/bin/python
+Ultralytics YOLOv8.0.188 🚀 Python-3.8.16 torch-1.10.1+cu111 CUDA:0 (Tesla V100S-PCIE-32GB, 32501MiB)
+3cbam_dcnv2 summary: 204 layers, 3333206 parameters, 0 gradients, 7.3 GFLOPs
+
+[34m[1mval: [0mScanning /public/home/wangyuanhao/rolled/ultralytics/weather_augment/data/labels/test...:   0%|          | 0/70 [00:00<?, ?it/s]
+[34m[1mval: [0mScanning /public/home/wangyuanhao/rolled/ultralytics/weather_augment/data/labels/test... 1 images, 0 backgrounds, 0 corrupt:   1%|▏         | 1/70 [00:00<00:33,  2.08it/s]
+[34m[1mval: [0mScanning /public/home/wangyuanhao/rolled/ultralytics/weather_augment/data/labels/test... 9 images, 0 backgrounds, 0 corrupt:  13%|█▎        | 9/70 [00:00<00:03, 17.64it/s]
+[34m[1mval: [0mScanning /public/home/wangyuanhao/rolled/ultralytics/weather_augment/data/labels/test... 13 images, 0 backgrounds, 0 corrupt:  19%|█▊        | 13/70 [00:00<00:03, 16.31it/s]
+[34m[1mval: [0mScanning /public/home/wangyuanhao/rolled/ultralytics/weather_augment/data/labels/test... 24 images, 0 backgrounds, 0 corrupt:  34%|███▍      | 24/70 [00:01<00:01, 32.56it/s]
+[34m[1mval: [0mScanning /public/home/wangyuanhao/rolled/ultralytics/weather_augment/data/labels/test... 29 images, 0 backgrounds, 0 corrupt:  41%|████▏     | 29/70 [00:01<00:01, 26.28it/s]
+[34m[1mval: [0mScanning /public/home/wangyuanhao/rolled/ultralytics/weather_augment/data/labels/test... 45 images, 0 backgrounds, 0 corrupt:  64%|██████▍   | 45/70 [00:01<00:00, 49.34it/s]
+[34m[1mval: [0mScanning /public/home/wangyuanhao/rolled/ultralytics/weather_augment/data/labels/test... 53 images, 0 backgrounds, 0 corrupt:  76%|███████▌  | 53/70 [00:01<00:00, 38.69it/s]
+[34m[1mval: [0mScanning /public/home/wangyuanhao/rolled/ultralytics/weather_augment/data/labels/test... 60 images, 0 backgrounds, 0 corrupt:  86%|████████▌ | 60/70 [00:01<00:00, 39.28it/s]
+[34m[1mval: [0mScanning /public/home/wangyuanhao/rolled/ultralytics/weather_augment/data/labels/test... 70 images, 0 backgrounds, 0 corrupt: 100%|██████████| 70/70 [00:02<00:00, 43.30it/s]
+[34m[1mval: [0mScanning /public/home/wangyuanhao/rolled/ultralytics/weather_augment/data/labels/test... 70 images, 0 backgrounds, 0 corrupt: 100%|██████████| 70/70 [00:02<00:00, 33.40it/s]
+[34m[1mval: [0mNew cache created: /public/home/wangyuanhao/rolled/ultralytics/weather_augment/data/labels/test.cache
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/70 [00:00<?, ?it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   1%|▏         | 1/70 [00:00<00:28,  2.41it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   3%|▎         | 2/70 [00:00<00:26,  2.53it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   6%|▌         | 4/70 [00:00<00:13,  4.99it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   9%|▊         | 6/70 [00:01<00:08,  7.73it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  11%|█▏        | 8/70 [00:01<00:06, 10.14it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  16%|█▌        | 11/70 [00:01<00:04, 13.74it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  19%|█▊        | 13/70 [00:01<00:03, 14.76it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  21%|██▏       | 15/70 [00:01<00:03, 15.55it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  24%|██▍       | 17/70 [00:01<00:03, 16.13it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  27%|██▋       | 19/70 [00:01<00:03, 16.50it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  30%|███       | 21/70 [00:01<00:02, 16.85it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  33%|███▎      | 23/70 [00:01<00:02, 17.17it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  36%|███▌      | 25/70 [00:02<00:02, 16.98it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  39%|███▊      | 27/70 [00:02<00:02, 17.03it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  41%|████▏     | 29/70 [00:02<00:02, 17.13it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  44%|████▍     | 31/70 [00:02<00:02, 17.39it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  47%|████▋     | 33/70 [00:02<00:02, 17.38it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  50%|█████     | 35/70 [00:02<00:02, 17.48it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  53%|█████▎    | 37/70 [00:02<00:01, 17.01it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  56%|█████▌    | 39/70 [00:02<00:01, 17.23it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  59%|█████▊    | 41/70 [00:03<00:01, 17.37it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  61%|██████▏   | 43/70 [00:03<00:01, 17.89it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  66%|██████▌   | 46/70 [00:03<00:01, 20.35it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  70%|███████   | 49/70 [00:03<00:00, 22.10it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  74%|███████▍  | 52/70 [00:03<00:00, 22.79it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  79%|███████▊  | 55/70 [00:03<00:00, 23.58it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  83%|████████▎ | 58/70 [00:03<00:00, 24.18it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  87%|████████▋ | 61/70 [00:03<00:00, 24.95it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  91%|█████████▏| 64/70 [00:03<00:00, 25.49it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  96%|█████████▌| 67/70 [00:04<00:00, 24.73it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 70/70 [00:04<00:00, 24.95it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 70/70 [00:04<00:00, 16.73it/s]
+                   all         70        626      0.811      0.701       0.77      0.459
+                  leaf         70        170      0.792      0.629      0.708      0.397
+                rolled         70        456       0.83      0.773      0.832      0.522
+Speed: 0.5ms preprocess, 15.8ms inference, 0.0ms loss, 1.0ms postprocess per image
+FPS: 57.538
+Results saved to [1m/public/home/wangyuanhao/rolled/ultralytics/runs/detect/val99[0m
